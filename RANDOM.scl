@@ -1,6 +1,9 @@
-﻿FUNCTION_BLOCK "RANDOM"
+FUNCTION_BLOCK "RANDOM"
+TITLE = FB para geração de números "aleatórios"
 { S7_Optimized_Access := 'TRUE' }
+AUTHOR : 'Felipe Braga'
 VERSION : 0.1
+//FB para geração de números pseudoaleatórios com faixa configurável, desenvolvido em SCL para Siemens TIA Portal.
    VAR_INPUT 
       xPulsoOuTempo : Bool;   // 0 = Gera por pulso, 1 = Gera por tempo
       xPulso : Bool;   // Pulso para gerar
